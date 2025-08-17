@@ -2,7 +2,7 @@
 
 Deploy a Node.js & PostgreSQL app into the AWS cloud. Suitable for dev/sandbox work.
 
-Creates an EC2 instance, RDS Postgres database, and appropriate VPN, subnets, and gateway.
+Creates an EC2 instance, RDS Postgres database, and appropriate VPC, subnets, and gateway.
 
 The end result is that you have a node web app running at port 3000 on the EC2 instance, and it can connect to the Postgres database.
 
